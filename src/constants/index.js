@@ -126,8 +126,28 @@ export const workExperiences = [
     icon: '/assets/hat.webp',
 
   },
+
   {
     id: 2,
+    name: 'AWS Certified DevOps Engineer - Professional',
+    pos: 'Amazon',
+    duration: 'Dec 2024 - Dec 2027',
+    // title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    icon: '/assets/dop.png',
+
+  },
+  {
+    id: 3,
+    name: 'AWS Certified Developer - Associate',
+    pos: 'Amazon',
+    duration: 'Nov 2024 - Nov 2027',
+    // title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    icon: '/assets/dva.png',
+
+  },
+
+  {
+    id: 4,
     name: 'The Complete 2024 Web Development Bootcamp ',
     pos: 'Udemy',
     duration: 'May 2024',
@@ -136,7 +156,7 @@ export const workExperiences = [
  
   },
   {
-    id: 3,
+    id: 5,
     name: 'Data Analytics and Visualisation Job Simulation',
     pos: 'Accenture',
     duration: 'Dec 2023',
@@ -145,7 +165,7 @@ export const workExperiences = [
   
   },
   {
-    id: 4,
+    id: 6,
     name: 'Deloitte Australia - Technology Job Simulation',
     pos: 'Deloitte',
     duration: 'Dec 2023',
@@ -154,7 +174,7 @@ export const workExperiences = [
     
   },
   {
-    id: 5,
+    id: 7,
     name: 'Google Business Intelligence Specialisation',
     pos: 'Google ',
     duration: 'October 2023',

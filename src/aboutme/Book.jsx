@@ -2,7 +2,7 @@ import React from 'react'
 
 const Book = () => {
   return (
-    <div className="group relative w-64 h-64 overflow-hidden my-1 flex justify-center items-end perspective-[2500px] border-2 border-gray-500 rounded-lg">
+    <div className="group relative w-64 aspect-[1/1.1] overflow-hidden my-1 flex justify-center items-end perspective-[2500px] border-2 border-gray-500 rounded-lg">
       {/* Title Image with opacity change on hover */}
       <img
         src="/element/p-book.png"

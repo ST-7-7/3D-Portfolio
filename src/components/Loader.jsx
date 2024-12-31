@@ -34,13 +34,16 @@ const Loader = () => {
     <div>
       <style>{`
         .loader-container {
+          
           display: flex;
+          
           align-items: center;
           justify-content: center; 
           position: relative;
-          width: 100%; /* 容器宽度适应图片数量 */
+          width: 100%; 
           gap: 20px; /* 图片之间的间距 */
         }
+
         .pacman {
           width: 65px;
           aspect-ratio: 1;
@@ -66,12 +69,15 @@ const Loader = () => {
           display: flex; /* 使用 Flexbox */
           align-items: center; /* 垂直居中 */
           justify-content: center; /* 水平居中 */
+          aspect-ratio: 1;
         }
+        
         .image {
           width: 90%;
           height: auto;
           opacity: 1;
           transition: opacity 0.3s;
+          object-fit: cover
         }
         .eaten {
           opacity: 0.2; /* 被吃掉后变成透明 */
